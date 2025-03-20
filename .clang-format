@@ -1,5 +1,5 @@
 BasedOnStyle: Google
-IndentWidth: 4
+IndentWidth: 2
 UseTab: Never
 AllowShortIfStatementsOnASingleLine: false
 AllowShortLoopsOnASingleLine: false
@@ -18,10 +18,13 @@ BraceWrapping:
   BeforeCatch: false
 BinPackParameters: false
 BinPackArguments: false
-AlignAfterOpenBracket: false
+AlignAfterOpenBracket: BlockIndent
 AllowShortFunctionsOnASingleLine: None
 AlwaysBreakAfterDefinitionReturnType: None
-ColumnLimit: 200
+ColumnLimit: 80
 NamespaceIndentation: All
-AccessModifierOffset: -4
+AccessModifierOffset: -1
 SeparateDefinitionBlocks: Always
+AllowAllArgumentsOnNextLine: false
+AllowShortBlocksOnASingleLine: Empty
+ContinuationIndentWidth: 2
